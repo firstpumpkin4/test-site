@@ -1,0 +1,57 @@
+body {
+    background-color: #3F2860; /* purple background */
+    margin: 0;
+}
+
+#wrapper {
+    background-color: #f9f9f9; /* white box */
+    max-width: 1000px;
+    margin: 0 auto;  /* centers the box */
+    padding: 0;      /* remove extra padding so edges are clean */
+}
+
+/* header with lily background */
+header {
+    background-image: url(images/lilyheader.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+h1 {
+    font-family: 'Courier New', monospace;
+    font-size: 2.5em;
+    color: #3F2860;
+}
+
+/* center the nav */
+nav {
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* main content stays inside wrapper */
+main {
+    padding: 20px;
+}
+
+/* footer inside wrapper */
+footer {
+    text-align: center;
+    background-color: cadetblue;
+    padding: 1em;
+}
+
+/* images */
+img {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#hero {
+    text-align: center;
+}
